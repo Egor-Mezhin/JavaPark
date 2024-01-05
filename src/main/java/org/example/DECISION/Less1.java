@@ -36,21 +36,9 @@ public class Less1 {
      */
     public static void main(String[] args){
         int[][] numbers = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
-
-        for (int[] inum: numbers){
-            for (int iinum: inum){
-                if (iinum < 5 & iinum % 2 == 0){
-                    System.out.print("- ");
-                }
-                else if (iinum > 6 & iinum % 2 != 0){
-                    System.out.print("+ ");
-                }
-                else {
-                    System.out.print(iinum + " ");
-                }
-
-            }
-            System.out.println();
+        String x = "s";
+        if (!x.equals("e")){
+            System.out.println(1);
         }
     }
 }
