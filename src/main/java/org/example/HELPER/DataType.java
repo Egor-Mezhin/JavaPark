@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class DataType {
     /**
-     * Типы данных
+     * <h1>Типы данных
      */
     public static void main(String[] args){
 

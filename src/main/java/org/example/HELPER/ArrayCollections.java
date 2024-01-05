@@ -4,7 +4,8 @@ import java.util.*;
 
 public class ArrayCollections {
     /**
-     * Массивы и коллекции. Обьекты которые хранят много записей.
+     * <h1>Массивы и коллекции.
+     * <p>Обьекты которые хранят много записей.
      */
 
     public static void main(String[] args){
