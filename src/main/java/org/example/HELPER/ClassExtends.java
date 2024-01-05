@@ -13,17 +13,17 @@ public class ClassExtends {
      */
 
     public static void main(String[] args){
-        Cat cat = new Cat();
-        cat.name = "Вася";
-        cat.run();
-        cat.askingFood();
+        Cat cat = new Cat(); // Создал кота
+        cat.name = "Вася"; // Назвал кота Вася
+        cat.run(); // заставил Васю бегать
+        cat.askingFood(); // Вася просит еду
 
-        System.out.println();
+        System.out.println(); // Enter
 
-        Bear bear = new Bear();
-        bear.name = "Михалыч";
-        bear.eating();
-        bear.hibernation();
+        Bear bear = new Bear(); // Создал медведя
+        bear.name = "Михалыч"; // Назвал медведя Михалыч
+        bear.eating(); // Михалыч ест
+        bear.hibernation(); // Михалыч впал в спячку
     }
 }
 
