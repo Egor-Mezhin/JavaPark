@@ -6,7 +6,7 @@ public class Game {
     public static void main(String[] args){
         Human human = new Human("Егор");
         human.ory();
-
+        human.hashCode();
     }
 
     public static void start(Human human){
@@ -39,6 +39,7 @@ class Human implements Test{ // Класс Человек
 
     public Human(String name) {
         this.name = name;
+
     }
 
     String getName(){

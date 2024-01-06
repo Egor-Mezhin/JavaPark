@@ -35,7 +35,9 @@ public class Less1 {
      *    <br><br>for(int[] i: num){Выражение} // Теперь итератор i будет равнятся массиву. Но все еще не числу. В певрой итерации i будет равнятся {1, 2, 3}
      */
     public static void main(String[] args){
-        int[][] numbers = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
+        int[] numbers = new int[100];
+        numbers[0] = 1;
+        System.out.println(numbers);
 
     }
 }
