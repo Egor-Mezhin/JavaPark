@@ -1,5 +1,7 @@
 package org.example.HELPER;
 
+import org.example.GameYana.Test;
+
 public class ClassExtends {
     /**
      * <h1>Наследование классов
@@ -26,7 +28,7 @@ public class ClassExtends {
     }
 }
 
-class Animals { // Класс животные
+abstract class Animals implements Test { // Класс животные
     String name; // Имя животного
     void run (){ // Метод для бега
         System.out.printf("%s куда-то бежит\n", name);
