@@ -5,7 +5,7 @@ public class Game {
 
     public static void main(String[] args){
         Human human = new Human("Егор");
-        start(human);
+        human.ory();
 
     }
 
@@ -31,10 +31,11 @@ public class Game {
     }
 }
 
-class Human { // Класс Человек
+class Human implements Test{ // Класс Человек
     private String name; // Имя - не обозначено
     private int HP = 100; // Здоровье. По умолчанию 100. Модификатор Privat нужен чтобы его нельзя было изменить вручную
     private int money = 0; // Деньги
+
 
     public Human(String name) {
         this.name = name;
@@ -138,6 +139,10 @@ class Human { // Класс Человек
         }
 
     }
+
+//    public void ory(){
+//        System.out.println("ОЧЕНЬ СИЛЬНО ОРУ");
+//    }
 }
 
 
